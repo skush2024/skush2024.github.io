@@ -3,9 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Profile | Kush Shah </title>
+    <title>Love Notes for You ❤️</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #ffdde1;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 500px;
+            background: white;
+            padding: 20px;
+            margin: 100px auto;
+            border-radius: 15px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+        }
+        h1 {
+            color: #ff4e50;
+            font-size: 28px;
+        }
+        p {
+            font-size: 20px;
+            color: #444;
+            margin: 20px 0;
+        }
+        .heart {
+            font-size: 40px;
+            color: #ff4e50;
+            animation: heartbeat 1s infinite;
+        }
+        @keyframes heartbeat {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.2); }
+            100% { transform: scale(1); }
+        }
+        .footer {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #888;
+        }
+    </style>
 </head>
 <body>
-    <h3> Hi Ashna </h3>
+    <div class="container">
+        <h1>My Love, Ashna ❤️</h1>
+        <p id="message">You are the sunshine of my life. Every day with you is a blessing! 💕</p>
+        <div class="heart">❤️</div>
+        <div class="footer">New message every day, just for you!</div>
+    </div>
 </body>
 </html>
